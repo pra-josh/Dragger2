@@ -9,12 +9,8 @@ import dagger.Provides
 
 @Module
 class ActivityModule(
-    val activity: AppCompatActivity,
-    private val appModule: AppComponent
+    val activity: AppCompatActivity
 ) {
-
-
-
 
     @ActivityScope
     @Provides
